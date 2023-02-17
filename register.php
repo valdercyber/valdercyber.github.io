@@ -3,7 +3,7 @@ include 'config.php';
 session_start();
 error_reporting(0);
 if (isset($_SESSION['username'])) {
-	header("location: index.html");
+	header("location: index.php");
 }
 
 if (isset($_POST['submit'])) {
